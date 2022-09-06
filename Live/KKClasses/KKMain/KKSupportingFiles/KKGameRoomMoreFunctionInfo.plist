@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>kkid</key>
+		<string>0</string>
+		<key>name</key>
+		<string>转出</string>
+		<key>imageName</key>
+		<string>KKGameRoomMoreFunctionView_transferIcon</string>
+	</dict>
+	<dict>
+		<key>kkid</key>
+		<string>1</string>
+		<key>name</key>
+		<string>充值</string>
+		<key>imageName</key>
+		<string>KKGameRoomMoreFunctionView_ chargeIcon</string>
+	</dict>
+	<dict>
+		<key>kkid</key>
+		<string>2</string>
+		<key>name</key>
+		<string>活动</string>
+		<key>imageName</key>
+		<string>KKGameRoomMoreFunctionView_ activityIcon</string>
+	</dict>
+	<dict>
+		<key>kkid</key>
+		<string>3</string>
+		<key>name</key>
+		<string>客服</string>
+		<key>imageName</key>
+		<string>KKGameRoomMoreFunctionView_serveIcon</string>
+	</dict>
+	<dict>
+		<key>kkid</key>
+		<string>4</string>
+		<key>name</key>
+		<string>主页</string>
+		<key>imageName</key>
+		<string>KKGameRoomMoreFunctionView_homeIcon</string>
+	</dict>
+	<dict>
+		<key>kkid</key>
+		<string>5</string>
+		<key>name</key>
+		<string>分享</string>
+		<key>imageName</key>
+		<string>KKGameRoomMoreFunctionView_shareIcon</string>
+	</dict>
+	<dict>
+		<key>kkid</key>
+		<string>6</string>
+		<key>name</key>
+		<string>浮窗</string>
+		<key>imageName</key>
+		<string>KKGameRoomMoreFunctionView_folatIcon</string>
+	</dict>
+</array>
+</plist>

